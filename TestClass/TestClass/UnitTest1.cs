@@ -1,13 +1,13 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using Xunit;
+using ConsoleApp1;
 
-namespace UnitTestProject1
+namespace TestClass
 {
-    [TestClass]
+   
     public class UnitTest1
     {
-        [TestMethod]
+        [Fact]
         public void TestMethod1()
         {
             var testclass = new ImplementClass();
